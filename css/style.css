@@ -1,0 +1,120 @@
+body{
+  background-color: #1e202b;
+}
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+:root {
+  --main-color: #1e202b;
+  --secondary-color: #009ad8
+}
+.bg-dark-weather{
+  background-color: var(--main-color);
+  background-color: #1e202b
+
+}
+a.nav-link{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+  
+a.nav-link.active,a.nav-link:hover {
+  color: var(--secondary-color) !important;
+  border: 2px solid #009ad8 !important;
+ 
+}
+.sec1{
+  background-image: url("../imgs/banner.png");
+  height: 350px;
+}
+.content{
+  background-color: #1e202b;
+  border-radius: 37px;
+  -webkit-border-radius: 37px;
+  -moz-border-radius: 37px;
+  -ms-border-radius: 37px;
+  -o-border-radius: 37px;
+  overflow: hidden;
+  border: 8px solid #1e202b;
+  text-align: right;
+}
+input {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  width: 80%;
+}
+button{
+  /* margin-right: 0; */
+  color: white;
+  background-color: #009ad8;
+  border:none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  margin-left: auto;
+  
+}
+
+.item {
+  margin-top: -100px;
+}
+.special{
+  background-color: #323544;
+}
+.item.item1{
+  background-color: #323544;
+}
+.sec3 {
+  background-color: #323544;
+}
+.social-media li i {
+  color: #009ad8;
+  background-color: #1e202b;
+  padding: 15px 15px;
+  margin: 2px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.social-media li i:hover{
+  color: white;
+  background-color: #009ad8;
+}
+.date{
+  opacity:0.5;
+  background-color:#1e202b;
+}
+.weather-status{
+  color: #009ad8;
+}
+.bg-special{
+  background-color:#1e202b;
+}
+@media screen and (max-width: 1000px){
+  input{
+    width: 60%;
+  }
+  button.submit{
+    width: 15%;
+  }
+}
